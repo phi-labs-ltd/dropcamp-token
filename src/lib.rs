@@ -103,8 +103,8 @@ mod tests {
             .unwrap();
 
         let metadata_extension = Some(Metadata {
-            id: Some("project name".into()),
-            description: Some("project description".into()),
+            id: Some("id".into()),
+            description: Some("description".into()),
             social_score: Some(85),
         });
 
