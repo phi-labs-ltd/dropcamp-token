@@ -95,13 +95,13 @@
     "Metadata": {
       "type": "object",
       "properties": {
-        "airdrop": {
+        "description": {
           "type": [
             "string",
             "null"
           ]
         },
-        "description": {
+        "id": {
           "type": [
             "string",
             "null"

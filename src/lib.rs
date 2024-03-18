@@ -10,7 +10,7 @@ pub use cw721::{ContractInfoResponse};
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Serialize, Deserialize, Clone, PartialEq, JsonSchema, Debug)]
 pub struct Metadata {
-    pub airdrop: Option<String>,
+    pub id: Option<String>,
     pub description: Option<String>,
     pub social_score: Option<u16>,
 }
@@ -103,7 +103,7 @@ mod tests {
             .unwrap();
 
         let metadata_extension = Some(Metadata {
-            airdrop: Some("project name".into()),
+            id: Some("project name".into()),
             description: Some("project description".into()),
             social_score: Some(85),
         });
