@@ -7,6 +7,41 @@
         "project": "dropcamp-token",
         "type": "set-metadata",
         "chainId": "constantine-3",
+        "codeId": 364,
+        "txhash": "36311DA42919090B28C0CB962D89E6A0DA6441C8BC89C5992B6354ACECF12852",
+        "contract": "archway1n7prdha994y7zps8uknh0wtxzf9rtcdnzr4z7dq8g8j2w360nksqk2ujnn",
+        "contractMetadata": {
+          "ownerAddress": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq",
+          "rewardsAddress": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq"
+        }
+      },
+      {
+        "project": "dropcamp-token",
+        "type": "instantiate",
+        "chainId": "archway-1",
+        "codeId": 364,
+        "txhash": "0AED34278C74F35DB506FA00142B9FCBE4C233EB620B0F48BEB34D21DD1C2244",
+        "address": "archway1n7prdha994y7zps8uknh0wtxzf9rtcdnzr4z7dq8g8j2w360nksqk2ujnn",
+        "admin": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq",
+        "label": "19ahcs-t",
+        "args": {
+          "name": "Astronomy Patch",
+          "symbol": "ASTRONOMY",
+          "minter": "archway19gew96eqwq5a70rk382pwrcp2j6r9cvgnhrfc2w9d4t9k5ul3t7sqreadc"
+        }
+      },
+      {
+        "project": "dropcamp-token",
+        "type": "store",
+        "chainId": "archway-1",
+        "codeId": 364,
+        "checksum": "cc3552801cb8f40e5b40fd484ba00273132dd574f0e2ab7840c88911f94ea110",
+        "txhash": "699BE9185666CFD7C50DCB9D08233BD68B4FF13BF6265C31DEBC10098AEFD733"
+      },
+      {
+        "project": "dropcamp-token",
+        "type": "set-metadata",
+        "chainId": "constantine-3",
         "codeId": 2233,
         "txhash": "BD6D9075697965F99E0F535DAB545D07C3C8FEB1023EDD5E66B44CD5A50ED2D1",
         "contract": "archway14cnjp3kshe03afunukkgua4yddqkw7ltvuuyru8x523385jahqasx8upr3",
