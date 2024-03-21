@@ -3,7 +3,41 @@
   "name": "dropcamp-token",
   "developer": {
     "deployments": [
-      
+      {
+        "project": "dropcamp-token",
+        "type": "set-metadata",
+        "chainId": "constantine-3",
+        "codeId": 2233,
+        "txhash": "BD6D9075697965F99E0F535DAB545D07C3C8FEB1023EDD5E66B44CD5A50ED2D1",
+        "contract": "archway14cnjp3kshe03afunukkgua4yddqkw7ltvuuyru8x523385jahqasx8upr3",
+        "contractMetadata": {
+          "ownerAddress": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq",
+          "rewardsAddress": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq"
+        }
+      },
+      {
+        "project": "dropcamp-token",
+        "type": "instantiate",
+        "chainId": "constantine-3",
+        "codeId": 2233,
+        "txhash": "0AED34278C74F35DB506FA00142B9FCBE4C233EB620B0F48BEB34D21DD1C2244",
+        "address": "archway14cnjp3kshe03afunukkgua4yddqkw7ltvuuyru8x523385jahqasx8upr3",
+        "admin": "archway1f395p0gg67mmfd5zcqvpnp9cxnu0hg6r9hfczq",
+        "label": "dct 0.1.0",
+        "args": {
+          "name": "Token",
+          "symbol": "TKN",
+          "minter": "archway19ahcsladjrw74a527uv2ndftrjfyv0acut65mfph3rjzx206l3gqewfp6m"
+        }
+      },
+      {
+        "project": "dropcamp-token",
+        "type": "store",
+        "chainId": "constantine-3",
+        "codeId": 2233,
+        "checksum": "cc3552801cb8f40e5b40fd484ba00273132dd574f0e2ab7840c88911f94ea110",
+        "txhash": "B8E693E9679669B0DAC836ECA70199196BDE63FE8C0ED12FE74481D00877D108"
+      }
     ]
   },
   "network": {
