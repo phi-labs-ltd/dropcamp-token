@@ -239,29 +239,31 @@ dependencies = [
 ]
 
 [[package]]
-name = "cw721"
-version = "0.14.0"
-source = "git+https://github.com/drewstaylor/cw721-soulbound.git#30c7f510cce25876a66a8cb8991cf1a05f24328c"
-dependencies = [
- "cosmwasm-std",
- "cw-utils",
- "schemars",
- "serde",
-]
-
-[[package]]
-name = "cw721-soulbound"
-version = "0.1.0"
-source = "git+https://github.com/drewstaylor/cw721-soulbound.git#30c7f510cce25876a66a8cb8991cf1a05f24328c"
+name = "cw721-base-soulbound"
+version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d122bbe0ada3e900f016ce1ceb508e45b36c9c34260b568cbc4ddc15a81d9f6e"
 dependencies = [
  "cosmwasm-std",
  "cw-storage-plus 0.14.0",
  "cw-utils",
  "cw2 0.14.0",
- "cw721",
+ "cw721-soulbound",
  "schemars",
  "serde",
  "thiserror",
+]
+
+[[package]]
+name = "cw721-soulbound"
+version = "1.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1f21d2b2a63ef60f6a96210b725975b15dd076df0a399d0ab7bbc5ec08b96018"
+dependencies = [
+ "cosmwasm-std",
+ "cw-utils",
+ "schemars",
+ "serde",
 ]
 
 [[package]]
@@ -313,7 +315,7 @@ dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std",
  "cw2 0.11.1",
- "cw721",
+ "cw721-base-soulbound",
  "cw721-soulbound",
  "schemars",
  "serde",

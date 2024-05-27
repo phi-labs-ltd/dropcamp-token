@@ -3,9 +3,9 @@ use serde::{Deserialize, Serialize};
 use cosmwasm_std::{Empty, Reply, SubMsgResult};
 use cw2::set_contract_version;
 
-pub use cw721_soulbound::{ContractError, InstantiateMsg, MintMsg, MinterResponse, QueryMsg};
+pub use cw721_base_soulbound::{ContractError, InstantiateMsg, MintMsg, MinterResponse, QueryMsg};
 
-pub use cw721::{ContractInfoResponse};
+pub use cw721_soulbound::{ContractInfoResponse};
 
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Serialize, Deserialize, Clone, PartialEq, JsonSchema, Debug)]
@@ -17,9 +17,9 @@ pub struct Metadata {
 
 pub type Extension = Option<Metadata>;
 
-pub type Cw721MetadataContract<'a> = cw721_soulbound::Cw721Contract<'a, Extension, Empty, Empty, Empty>;
+pub type Cw721MetadataContract<'a> = cw721_base_soulbound::Cw721Contract<'a, Extension, Empty, Empty, Empty>;
 
-pub type ExecuteMsg = cw721_soulbound::ExecuteMsg<Extension, Empty>;
+pub type ExecuteMsg = cw721_base_soulbound::ExecuteMsg<Extension, Empty>;
 
 const CONTRACT_NAME: &str = "dropcamp-token";
 const CONTRACT_VERSION: &str = env!("CARGO_PKG_VERSION");
@@ -83,7 +83,7 @@ mod tests {
     use super::*;
 
     use cosmwasm_std::testing::{mock_dependencies, mock_env, mock_info};
-    use cw721::{Cw721Query};
+    use cw721_soulbound::{Cw721Query};
 
     const MINTER: &str = "claim_verifier";
 
