@@ -8,7 +8,7 @@
         "type": "set-metadata",
         "chainId": "archway-1",
         "codeId": 364,
-        "txhash": "",
+        "txhash": "5A6A7A35E83DE9E2F590088091024E642ADDDB3724CE12AF3568173337D8DAC3",
         "contract": "archway1cwypf946sdmhgcaz2tjrqmvnf9rnq8rmy9sfce22d6z84fdwddysx74xh6",
         "contractMetadata": {
           "ownerAddress": "archway1d4mz3n63m6gm608d2qctleersn2z2xumqjlj7z",
